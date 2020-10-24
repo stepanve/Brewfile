@@ -1,6 +1,5 @@
 cask_args appdir: '/Applications'
 tap 'homebrew/cask'
-tap "telemachus/brew", "https://telemachus@bitbucket.org/telemachus/brew.git", pin: true
 cask 'google-chrome'
 cask 'firefox', args: { appdir: '/Applications' }
 cask 'slack'
